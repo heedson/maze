@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/david/work/src/github.com/heedson/maze/main.cpp
+SFML/Graphics.hpp
+/home/david/work/src/github.com/heedson/maze/SFML/Graphics.hpp
+

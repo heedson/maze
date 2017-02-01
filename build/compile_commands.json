@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/david/work/src/github.com/heedson/maze/build",
+  "command": "/usr/bin/c++     -O3 -DNDEBUG   -o CMakeFiles/main.dir/main.cpp.o -c /home/david/work/src/github.com/heedson/maze/main.cpp",
+  "file": "/home/david/work/src/github.com/heedson/maze/main.cpp"
+}
+]

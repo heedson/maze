@@ -14,7 +14,7 @@
             "name": "Linux",
             "includePath": [
                 "/usr/include",
-                "~/work/src/github.com/heedson/maze"
+                "/home/david/work/src/github.com/heedson/maze/SFML-2.4.1/include"
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
