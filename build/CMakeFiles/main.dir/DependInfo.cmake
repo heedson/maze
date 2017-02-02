@@ -4,12 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/david/work/src/github.com/heedson/maze/cell.cpp" "/home/david/work/src/github.com/heedson/maze/build/CMakeFiles/main.dir/cell.cpp.o"
+  "/home/david/work/src/github.com/heedson/maze/game.cpp" "/home/david/work/src/github.com/heedson/maze/build/CMakeFiles/main.dir/game.cpp.o"
   "/home/david/work/src/github.com/heedson/maze/main.cpp" "/home/david/work/src/github.com/heedson/maze/build/CMakeFiles/main.dir/main.cpp.o"
+  "/home/david/work/src/github.com/heedson/maze/maze.cpp" "/home/david/work/src/github.com/heedson/maze/build/CMakeFiles/main.dir/maze.cpp.o"
+  "/home/david/work/src/github.com/heedson/maze/player.cpp" "/home/david/work/src/github.com/heedson/maze/build/CMakeFiles/main.dir/player.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../include"
   )
 
 # Targets to which this target links.

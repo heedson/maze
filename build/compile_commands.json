@@ -1,7 +1,27 @@
 [
 {
   "directory": "/home/david/work/src/github.com/heedson/maze/build",
-  "command": "/usr/bin/c++     -O3 -DNDEBUG   -o CMakeFiles/main.dir/main.cpp.o -c /home/david/work/src/github.com/heedson/maze/main.cpp",
+  "command": "/usr/bin/c++    -I/home/david/work/src/github.com/heedson/maze/include  -O3 -DNDEBUG   -o CMakeFiles/main.dir/main.cpp.o -c /home/david/work/src/github.com/heedson/maze/main.cpp",
   "file": "/home/david/work/src/github.com/heedson/maze/main.cpp"
+},
+{
+  "directory": "/home/david/work/src/github.com/heedson/maze/build",
+  "command": "/usr/bin/c++    -I/home/david/work/src/github.com/heedson/maze/include  -O3 -DNDEBUG   -o CMakeFiles/main.dir/game.cpp.o -c /home/david/work/src/github.com/heedson/maze/game.cpp",
+  "file": "/home/david/work/src/github.com/heedson/maze/game.cpp"
+},
+{
+  "directory": "/home/david/work/src/github.com/heedson/maze/build",
+  "command": "/usr/bin/c++    -I/home/david/work/src/github.com/heedson/maze/include  -O3 -DNDEBUG   -o CMakeFiles/main.dir/maze.cpp.o -c /home/david/work/src/github.com/heedson/maze/maze.cpp",
+  "file": "/home/david/work/src/github.com/heedson/maze/maze.cpp"
+},
+{
+  "directory": "/home/david/work/src/github.com/heedson/maze/build",
+  "command": "/usr/bin/c++    -I/home/david/work/src/github.com/heedson/maze/include  -O3 -DNDEBUG   -o CMakeFiles/main.dir/cell.cpp.o -c /home/david/work/src/github.com/heedson/maze/cell.cpp",
+  "file": "/home/david/work/src/github.com/heedson/maze/cell.cpp"
+},
+{
+  "directory": "/home/david/work/src/github.com/heedson/maze/build",
+  "command": "/usr/bin/c++    -I/home/david/work/src/github.com/heedson/maze/include  -O3 -DNDEBUG   -o CMakeFiles/main.dir/player.cpp.o -c /home/david/work/src/github.com/heedson/maze/player.cpp",
+  "file": "/home/david/work/src/github.com/heedson/maze/player.cpp"
 }
 ]

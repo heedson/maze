@@ -81,21 +81,125 @@ CMakeFiles/main.dir/main.cpp.o.provides: CMakeFiles/main.dir/main.cpp.o.requires
 CMakeFiles/main.dir/main.cpp.o.provides.build: CMakeFiles/main.dir/main.cpp.o
 
 
+CMakeFiles/main.dir/game.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/game.cpp.o: ../game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/work/src/github.com/heedson/maze/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/game.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/game.cpp.o -c /home/david/work/src/github.com/heedson/maze/game.cpp
+
+CMakeFiles/main.dir/game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/game.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/work/src/github.com/heedson/maze/game.cpp > CMakeFiles/main.dir/game.cpp.i
+
+CMakeFiles/main.dir/game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/game.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/work/src/github.com/heedson/maze/game.cpp -o CMakeFiles/main.dir/game.cpp.s
+
+CMakeFiles/main.dir/game.cpp.o.requires:
+
+.PHONY : CMakeFiles/main.dir/game.cpp.o.requires
+
+CMakeFiles/main.dir/game.cpp.o.provides: CMakeFiles/main.dir/game.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/game.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/game.cpp.o.provides
+
+CMakeFiles/main.dir/game.cpp.o.provides.build: CMakeFiles/main.dir/game.cpp.o
+
+
+CMakeFiles/main.dir/maze.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/maze.cpp.o: ../maze.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/work/src/github.com/heedson/maze/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/maze.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/maze.cpp.o -c /home/david/work/src/github.com/heedson/maze/maze.cpp
+
+CMakeFiles/main.dir/maze.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/maze.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/work/src/github.com/heedson/maze/maze.cpp > CMakeFiles/main.dir/maze.cpp.i
+
+CMakeFiles/main.dir/maze.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/maze.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/work/src/github.com/heedson/maze/maze.cpp -o CMakeFiles/main.dir/maze.cpp.s
+
+CMakeFiles/main.dir/maze.cpp.o.requires:
+
+.PHONY : CMakeFiles/main.dir/maze.cpp.o.requires
+
+CMakeFiles/main.dir/maze.cpp.o.provides: CMakeFiles/main.dir/maze.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/maze.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/maze.cpp.o.provides
+
+CMakeFiles/main.dir/maze.cpp.o.provides.build: CMakeFiles/main.dir/maze.cpp.o
+
+
+CMakeFiles/main.dir/cell.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/cell.cpp.o: ../cell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/work/src/github.com/heedson/maze/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/cell.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/cell.cpp.o -c /home/david/work/src/github.com/heedson/maze/cell.cpp
+
+CMakeFiles/main.dir/cell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/cell.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/work/src/github.com/heedson/maze/cell.cpp > CMakeFiles/main.dir/cell.cpp.i
+
+CMakeFiles/main.dir/cell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/cell.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/work/src/github.com/heedson/maze/cell.cpp -o CMakeFiles/main.dir/cell.cpp.s
+
+CMakeFiles/main.dir/cell.cpp.o.requires:
+
+.PHONY : CMakeFiles/main.dir/cell.cpp.o.requires
+
+CMakeFiles/main.dir/cell.cpp.o.provides: CMakeFiles/main.dir/cell.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/cell.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/cell.cpp.o.provides
+
+CMakeFiles/main.dir/cell.cpp.o.provides.build: CMakeFiles/main.dir/cell.cpp.o
+
+
+CMakeFiles/main.dir/player.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/player.cpp.o: ../player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/work/src/github.com/heedson/maze/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/player.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/player.cpp.o -c /home/david/work/src/github.com/heedson/maze/player.cpp
+
+CMakeFiles/main.dir/player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/player.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/work/src/github.com/heedson/maze/player.cpp > CMakeFiles/main.dir/player.cpp.i
+
+CMakeFiles/main.dir/player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/player.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/work/src/github.com/heedson/maze/player.cpp -o CMakeFiles/main.dir/player.cpp.s
+
+CMakeFiles/main.dir/player.cpp.o.requires:
+
+.PHONY : CMakeFiles/main.dir/player.cpp.o.requires
+
+CMakeFiles/main.dir/player.cpp.o.provides: CMakeFiles/main.dir/player.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/player.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/player.cpp.o.provides
+
+CMakeFiles/main.dir/player.cpp.o.provides.build: CMakeFiles/main.dir/player.cpp.o
+
+
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/main.cpp.o"
+"CMakeFiles/main.dir/main.cpp.o" \
+"CMakeFiles/main.dir/game.cpp.o" \
+"CMakeFiles/main.dir/maze.cpp.o" \
+"CMakeFiles/main.dir/cell.cpp.o" \
+"CMakeFiles/main.dir/player.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/main.cpp.o
+main: CMakeFiles/main.dir/game.cpp.o
+main: CMakeFiles/main.dir/maze.cpp.o
+main: CMakeFiles/main.dir/cell.cpp.o
+main: CMakeFiles/main.dir/player.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: /usr/lib/x86_64-linux-gnu/libsfml-system.so
 main: /usr/lib/x86_64-linux-gnu/libsfml-window.so
 main: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so
 main: /usr/lib/x86_64-linux-gnu/libsfml-audio.so
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/david/work/src/github.com/heedson/maze/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/david/work/src/github.com/heedson/maze/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -104,6 +208,10 @@ CMakeFiles/main.dir/build: main
 .PHONY : CMakeFiles/main.dir/build
 
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/main.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/game.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/maze.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/cell.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/player.cpp.o.requires
 
 .PHONY : CMakeFiles/main.dir/requires
 
