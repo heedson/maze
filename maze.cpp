@@ -11,7 +11,7 @@ Maze::Maze() {
 
 void Maze::Initialize() {
     std::string line;
-    std::ifstream inputMaze("input.txt");
+    std::ifstream inputMaze("../input.txt");
 
     if (inputMaze.is_open()) {
         int row = 0;

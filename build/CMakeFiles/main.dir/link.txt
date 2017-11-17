@@ -1,1 +1,0 @@
-/usr/bin/c++   -O3 -DNDEBUG   CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/game.cpp.o CMakeFiles/main.dir/maze.cpp.o CMakeFiles/main.dir/cell.cpp.o CMakeFiles/main.dir/player.cpp.o  -o main /usr/lib/x86_64-linux-gnu/libsfml-system.so /usr/lib/x86_64-linux-gnu/libsfml-window.so /usr/lib/x86_64-linux-gnu/libsfml-graphics.so /usr/lib/x86_64-linux-gnu/libsfml-audio.so 

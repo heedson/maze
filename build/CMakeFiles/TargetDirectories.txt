@@ -1,3 +1,0 @@
-/home/david/work/src/github.com/heedson/maze/build/CMakeFiles/rebuild_cache.dir
-/home/david/work/src/github.com/heedson/maze/build/CMakeFiles/edit_cache.dir
-/home/david/work/src/github.com/heedson/maze/build/CMakeFiles/main.dir
